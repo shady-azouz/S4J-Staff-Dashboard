@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>S4J Staff Dashboard</title>
+    <link rel="icon" type="image/png" href="assets/s4j-logo.png">
+</head>
+
+<body>
+
+    <header>
+        <img src="assets/s4j-logo.png" alt="S4J Logo" class="logo"> <!-- Logo next to the title -->
+        <h1>S4J Staff Dashboard</h1>
+    </header>
+
+    <section id="wrapup">
+        <h2>2023 Wrap-up</h2>
+        <div class="image-carousel">
+            <img id="carousel-image" src="" alt="Image">
+            <div class="controls">
+                <button onclick="prevImage()">Previous Image</button>
+                <button onclick="nextImage()">Next Image</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Our Staff Calendar</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?src=t5u0o3143v37n6680l09idl55k%40group.calendar.google.com&ctz=Africa%2FCairo" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+</body>
+
+</html>
