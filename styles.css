@@ -32,7 +32,7 @@ section {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 h2 {
@@ -81,7 +81,12 @@ iframe {
         font-size: 1.5em; /* Reduced font size for smaller screens */
     }
 
+    header {
+        padding: 0;
+    }
+
     section {
         width: 90vw;
+        padding: 10px;
     }
 }
